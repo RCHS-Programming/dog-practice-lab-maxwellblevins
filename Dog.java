@@ -14,7 +14,8 @@ public class Dog
   
   public Dog( String n, int a )  
   {
-	 //fill in this constructor
+	 age = a; 
+   name = n;
   }
   
   public void increaseAgeByOne()
